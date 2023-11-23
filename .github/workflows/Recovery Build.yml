@@ -14,11 +14,11 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/Anangtofa/earthyz.git'
+        default: 'https://github.com/Anangtofa/ori_earth.git'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'android-12.1'
+        default: 'vnd_earth-user-12-TP1A.220624.014-V14.0.3.0.TCVINXM-release-keys'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
@@ -36,7 +36,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_earth'
+        default: 'omni_earth'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
